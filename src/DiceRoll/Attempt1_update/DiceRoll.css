@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .dices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: rgb(240, 237, 237);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  .dice-container {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: relative;
+  }
+  
+  .dot {
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .middle {
+    top: 40%;
+    left: 40%;
+  }
+  
+  .top-left {
+    top: 5%;
+    left: 5%;
+  }
+  
+  .top-right {
+    top: 5%;
+    right: 5%;
+  }
+  
+  .middle-left {
+    top: 40%;
+    left: 5%;
+  }
+  
+  .middle-right {
+    top: 40%;
+    right: 5%;
+  }
+  
+  .bottom-left {
+    bottom: 5%;
+    left: 5%;
+  }
+  
+  .bottom-right {
+    bottom: 5%;
+    right: 5%;
+  }
+  

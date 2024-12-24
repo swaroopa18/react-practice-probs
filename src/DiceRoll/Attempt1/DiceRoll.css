@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .dices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    background-color: rgb(240, 237, 237);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  .dice-container {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 8px;
+    position: relative; /* Ensures positioning works for child elements */
+  }
+  
+  .dot {
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute; /* Enables absolute positioning for diagonal placement */
+  }
+  
+  .dice1,
+  .dice2,
+  .dice3,
+  .dice4,
+  .dice5,
+  .dice6 {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .dice1 .middle {
+    top: 40%; /* Position the first dot in the top-left corner */
+    left: 40%;
+  }
+  
+  .dice2 .top-left {
+    top: 10%; /* Position the first dot in the top-left corner */
+    left: 10%;
+  }
+  
+  .dice2 .bottom-right {
+    bottom: 10%; /* Position the second dot in the bottom-right corner */
+    right: 10%;
+  }
+  
+  .dice3 .top-left {
+    top: 5%; /* Position the first dot in the top-left corner */
+    left: 5%;
+  }
+  
+  .dice3 .middle {
+    top: 40%; /* Position the first dot in the top-left corner */
+    left: 40%;
+  }
+  
+  .dice3 .bottom-right {
+    bottom: 5%; /* Position the second dot in the bottom-right corner */
+    right: 5%;
+  }
+  
+  .dice4 .top-left {
+    top: 5%; /* Position the first dot in the top-left corner */
+    left: 5%;
+  }
+  
+  .dice4 .top-right {
+    top: 5%; /* Position the first dot in the top-left corner */
+    right: 5%;
+  }
+  
+  .dice4 .bottom-left {
+    bottom: 5%; /* Position the first dot in the top-left corner */
+    left: 5%;
+  }
+  
+  .dice4 .bottom-right {
+    bottom: 5%; /* Position the second dot in the bottom-right corner */
+    right: 5%;
+  }
+  
+  .dice5 .top-left {
+    top: 5%; /* Position the first dot in the top-left corner */
+    left: 5%;
+  }
+  
+  .dice5 .top-right {
+    top: 5%; /* Position the first dot in the top-left corner */
+    right: 5%;
+  }
+  
+  .dice5 .bottom-left {
+    bottom: 5%; /* Position the first dot in the top-left corner */
+    left: 5%;
+  }
+  
+  .dice5 .bottom-right {
+    bottom: 5%; /* Position the second dot in the bottom-right corner */
+    right: 5%;
+  }
+  
+  .dice5 .middle {
+    top: 40%; /* Position the first dot in the top-left corner */
+    left: 40%;
+  }
+  
+  .dice6 .top-left {
+    top: 5%; /* Position the first dot in the top-left corner */
+    left: 5%;
+  }
+  
+  .dice6 .top-right {
+    top: 5%; /* Position the first dot in the top-left corner */
+    right: 5%;
+  }
+  
+  .dice6 .bottom-left {
+    bottom: 5%; /* Position the first dot in the top-left corner */
+    left: 5%;
+  }
+  
+  .dice6 .bottom-right {
+    bottom: 5%; /* Position the second dot in the bottom-right corner */
+    right: 5%;
+  }
+  
+  .dice6 .middle-left {
+    top: 40%; /* Position the first dot in the top-left corner */
+    left: 5%;
+  }
+  
+  .dice6 .middle-right {
+    top: 40%; /* Position the first dot in the top-left corner */
+    right: 5%;
+  }
+  
