@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .heart {
+    border: 2px solid black;
+    border-radius: 14px;
+    font-size: 14px;
+    font-weight: 800;
+    padding: 4px 8px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 32px;
+  }
+  
+  .unlike:hover {
+    border: 2px solid #f00;
+    color: #f00;
+  }
+  
+  .like {
+    border: 2px solid #f00;
+    background-color: #f00;
+    color: white;
+  }
+  
