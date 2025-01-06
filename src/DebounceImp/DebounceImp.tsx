@@ -3,7 +3,7 @@ import React, { useState } from "react";
 // Debouncing: Fires the function only once after a pause.
 // Throttling: Ensures the function runs at most once in a specified time frame.
 
-const debounce = (fn, delay) => {
+export const debounce = (fn, delay) => {
   let timer;
   return (...args) => {
     clearTimeout(timer);
