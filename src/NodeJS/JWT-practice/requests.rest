@@ -1,0 +1,41 @@
+GET http://localhost:3000/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN3YXJvb3BhIiwicGFzc3dvcmQiOiIkMmIkMTAkMW9HcDRrVmNVVmFtY1dva1puekVtLld0Yk0uNDVpZVhHY1ZrWVJaSHNSMTNVeUZuOXJodG0iLCJpYXQiOjE3Mzc2OTc2MzUsImV4cCI6MTczNzY5NzY2NX0.kVqrfBHazuJ9nsDOWwqffDybQrOaDCMG81lRUEHzhA4
+
+###
+GET http://localhost:3000/users
+
+###
+POST  http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "username": "swaroopa",
+    "password": "reddy1"
+}
+
+###
+DELETE http://localhost:3001/logout
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic3dhcm9vcGEiLCJpYXQiOjE3Mzc2OTYwNTB9.jPbko5Lrcq_MGmGQtKeDMkcrUxZxcJNfLm8dnbCSm3Y"
+}
+
+###
+POST http://localhost:3001/token
+Content-Type: application/json
+
+{
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoic3dhcm9vcGEiLCJpYXQiOjE3Mzc2OTYwNTB9.jPbko5Lrcq_MGmGQtKeDMkcrUxZxcJNfLm8dnbCSm3Y"
+}
+
+###
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+    "username": "swaroopa",
+     "password": "reddy1"
+}
+
+

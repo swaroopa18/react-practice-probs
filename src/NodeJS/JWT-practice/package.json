@@ -1,0 +1,25 @@
+{
+  "name": "jwt-practice",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "authStart": "node authServer.mjs",
+    "start2": "nodemon server2.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
